@@ -11,7 +11,6 @@ body{
 img{max-width:100%;}
 h1{
   margin-top:3em;
-
   font-size: 22px;
 }
 ul li{
@@ -21,6 +20,7 @@ ul li{
   border-style:hidden;
   background-color:#ffffff;
   margin-bottom:.5em;
+  text-align:center;
 
 }
 .nav{
@@ -28,7 +28,7 @@ ul li{
   margin-top:2em;
   margin-bottom:1em;
 }
-a:links{
+a:link{
   text-decoration:none;
   color:purple;
 }
@@ -54,6 +54,7 @@ text-align:center;
 .intro{
   width:100%;
   color:grey;
+
 }
 
 
@@ -70,18 +71,13 @@ p{
   text-align:center;
   font-size:20px;
 }
-.pic-1{
-
+.mobile{
   margin:auto;
   padding:2em;
   text-align:center;
 }
-.pic-2{
 
-  margin:auto;
-  padding:2em;
-  text-align:center;
-}
+
 footer{
   text-align: center;
 
@@ -94,6 +90,47 @@ footer{
 }
 .foot-end{
   float:right;
+}
+/* media query */
+@media (min-width:768px){
+ul li{
+  display: inline;
+  border:none;
+  background-color: inherit;
+  font-size:25px;
+}
+h1{
+  font-size:40px;
+  margin:0 auto;
+}
+.marketing,
+.search,
+.travel,
+.spots,
+.gallery,
+.calculator{
+  margin:10px;
+}
+
+.intro{
+  text-align:left;
+  font-size:22px;
+
+  }
+.profile{
+    display:flex;
+    flex-direction: row-reverse;
+  }
+
+.tab-1{display: flex;}
+.tab-2{display: flex;}
+.tab-3{display: flex;}
+}
+footer{
+  text-align: center;
+}
+
+
 }
 
 
