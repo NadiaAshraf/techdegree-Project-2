@@ -118,17 +118,12 @@ footer{
   #portfolio
   {padding-top:2em;}
 
-    .tab-1{display: flex;}
-    .tab-2{display: flex;}
-    .tab-3{display: flex;}
+    .portfolio-divs{display: flex;
+      flex-wrap: wrap;
+    }
 
-.marketing,
-.search,
-.travel,
-.spots,
-.gallery,
-.calculator
-{margin: 10px;}
+.image{flex:50%;
+padding:1em;}
 
 .foot-end{
     display: none;
@@ -142,9 +137,9 @@ footer{
   margin-left:0.75em;}
   .top{display: flex;}
 
-#desk-1{
-  display: flex;
-}
-#desk-2{display: flex;}
+.portfolio-divs{display: flex;
+flex-wrap: wrap;}
+.image{
+  flex:33.33%;}
 
 }
