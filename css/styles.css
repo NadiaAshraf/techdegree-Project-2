@@ -11,7 +11,7 @@ img{max-width:100%;}
 h1,h2,h3{
   font-family: 'Open Sans', sans-serif;
 }
- .main-nav li{
+ .nav li{
   list-style-type: none;
   padding:1em;
   margin-bottom:.5em;
@@ -22,7 +22,7 @@ h1,h2,h3{
   font-family: roboto mono;
   font-size: 20px;
 }
-.mani-nav{
+.nav{
   padding:.75em;
   margin:2em 2em 1em 0;
 }
@@ -113,7 +113,7 @@ footer{
 
 /* media query */
 @media(min-width:768px){
-  .main-nav ul li{
+  .nav ul li{
     display:inline;
     border:none;
     background-color: inherit;
@@ -171,7 +171,7 @@ padding:1em;}
 @media(min-width:1024px){
   h1{margin-top:.5em;
   margin-left:0.75em;}
-  .main-nav{
+  .nav{
     margin-top: 1.20em;
   }
   .top{display: flex;}
